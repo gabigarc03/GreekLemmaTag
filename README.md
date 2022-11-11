@@ -58,6 +58,12 @@ cd ./LemmaTag
 pip install -r ./requirements.txt
 ```
 
+3. Install TensorFlow separately
+```bash
+pip install --upgrade wheel-URL
+```
+where `wheel-URL` is the corresponding URL as found on the last comment [here](https://stackoverflow.com/questions/55877398/how-to-install-tensorflow-version-1-12-0-with-pip).
+
 ### Training and Testing
 
 To start training on a sample dataset with default parameters, run
