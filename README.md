@@ -43,19 +43,19 @@ LemmaTag takes advantage of this by also predicting each tag subcategory and fee
 
 ### Requirements
 
-The code uses Python 3.5+ running TensorFlow (tested working with TF 1.12).
+The code uses Python 3.7 running TensorFlow 1.12.
 
 1. Clone the repository.
 
 ```bash
 git clone https://github.com/Hyperparticle/LemmaTag.git
-cd ./LemmaTag
+cd LemmaTag
 ```
 
 2. Install the python packages in `requirements.txt` if you don't have them already.
 
 ```bash
-pip install -r ./requirements.txt
+pip3.7 install -r requirements.txt
 ```
 
 3. Install TensorFlow separately
